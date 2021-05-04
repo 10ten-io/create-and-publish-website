@@ -1,32 +1,34 @@
+<!doctype html>
 <html>
-
 <head>
-    <link rel="stylesheet" href="styles.css">
-    <title>10ten</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="tailwind.css" rel="stylesheet">
+  <title>10ten</title>
 </head>
-
 <body>
-    <h1>This is an HTML page</h1>
-    <p><a href="markdown.html">Go to Markdown</a></p>
+  <div class="container mx-auto px-4">
+    <h1 class="text-4xl font-bold">This is an HTML page</h1>
+    <p class="text-blue-500 mb-8"><a href="markdown.html">Go to Markdown</a></p>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/USjZcfj8yxE" title="YouTube video player"
+    <iframe class="mx-auto mb-8" width="560" height="315" src="https://www.youtube.com/embed/USjZcfj8yxE" title="YouTube video player"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
 
-    <ul>
-        <li><a href="https://guides.github.com/introduction/git-handbook/">Git Handbook</a></li>
-        <li><a href="https://git-scm.com/book/en/v2">Git Book</a></li>
-        <li><a href="https://www.git-tower.com/learn/">Git Tower</a></li>
+    <h3 class="text-xl font-bold">Do your own research</h3>
+    <ul class="list-disc mb-8">
+        <li><a class="text-blue-500" href="https://guides.github.com/introduction/git-handbook/">Git Handbook</a></li>
+        <li><a class="text-blue-500" href="https://git-scm.com/book/en/v2">Git Book</a></li>
+        <li><a class="text-blue-500" href="https://www.git-tower.com/learn/">Git Tower</a></li>
     </ul>
 
-    <h3>Quiz</h3>
-    <ol>
+    <h3 class="text-xl font-bold">Quiz</h3>
+    <ol class="list-decimal mb-8">
         <li>What is Git?</li>
         <li>Use Google Forms</li>
     </ol>
 
-    <h3>Project</h3>
+    <h3 class="text-xl font-bold">Project</h3>
     <p>Create your own git repository to story notes about our lectures</p>
 </body>
-
 </html>
