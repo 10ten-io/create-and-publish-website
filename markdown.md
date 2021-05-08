@@ -7,6 +7,8 @@
   </a>
 </p>
 
+[![qualquer coisa](https://raw.githubusercontent.com/alexandremcosta/10ten01/main/video-thumbnail.png)](https://www.youtube.com/embed/USjZcfj8yxE)
+
 - [Git Handbook](https://guides.github.com/introduction/git-handbook/)
 - [Git Book](https://guides.github.com/introduction/git-handbook/)
 - [Git Tower](https://www.git-tower.com/learn/)
