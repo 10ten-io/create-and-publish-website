@@ -16,12 +16,8 @@ Essentially, a website is an HTML file, that can be opened by browsers. Just lik
 
 Let's take a minute to review our actions:
 
-<strong>
-    <ol>
-        <li>Create and open a folder</li>
-        <li>Create and open a file  </li>
-    </ol>
-</strong>
+1. **Create and open a folder**
+2. **Create and open a file**
 
 It's important that you get used to this and memorize VSCode shortcuts to do it easily. For example, to open something hold `control` on Linux/Windows, or `command` on OSX and press the key `o`. To toggle the file explorer, press `(ctrl or cmd) + shift + e` and release.
 
