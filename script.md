@@ -2,11 +2,11 @@ Hello, I'm Alex and I will teach you how to quickly create your first website.
 
 Before we start, make sure you have a [GitHub](github.com) account and [Visual Studio Code](https://code.visualstudio.com) installed. On Windows, you also need to install Git. Most of other Operational Systems have it by default.
 
-At the end, you will have your own personal website.
+**In minutes, you will publish your first page on the internet.**
 
 First, let's understand what a website is in it's most basic form: an HTML file with text inside.
 
-Open your file explorer and create a file called `index.html`. Open it with VSCode, write `Hello, I'm Alex` and save. Of course, you should change by your name.
+Open VSCode and click on <img src="open.png" alt="Open..." width="80"/>. Use the `Open` dialog to create a folder `Dev` on your user folder, and inside it create another folder named `website`. Open it. Use the VSCode file explorer to create a file named `index.html` inside `Dev/website/`. Write `Hello, I'm Alex` on it and save. Of course, you should change by your name.
 
 Now, open it with your browser. YAY! That's your first website.
 
@@ -14,17 +14,23 @@ Now, open it with your browser. YAY! That's your first website.
 
 Essentially, a website is an HTML file, that can be opened by browsers. Just like images can be opened by image editors, PDF files can be opened by PDF viewers, mp3 files can be opened by music players, and the list goes on. HTML files can be opened by browsers.
 
+Let's take a minute to review our actions:
+1. Create and open a folder
+2. Create and open a file
+
+It's important that you get used to this, and know shortcuts on VSCode to do it easily. For example, to open something hold `ctrl` on Linux/Windows, or `command` on OSX and press the key `o`. To toggle the file explorer, press `(cmd or ctrl) + shift + e` and release.
+
 Now only you can see this file/website, because it is in your computer. To show this to your friends we will need to put it in a public machine, for example a GitHub server.
 
 GitHub is a development platform that can store our files and serve them to the browser via `username.github.io` address. And much more that we will explore later.
 
-To start, create a new repository to store the website files, and give it this name: `username.github.io`. Change `username` by your username in GitHub.
+To start, navigate to github.com, login and create a new repository to store the website files. Give it this name: `username.github.io`, changing `username` by your username in GitHub.
 
 To send local files to GitHub we need Git, which is a terminal application shipped with OSX computers and most linux distributions. So you probably already have it, but if you don't, checkout the pre-work notes.
 
 Git is used everyday by pretty much every developer in the world, so you better start using it. Good news is that we only need 5 commands today. You will write (or copy-paste) on a terminal running inside the same folder as `index.html`.
 
-To toggle a terminal on the current folder in VSCode, hold the `control` or `ctrl` key and press the key `~` of your keyboard.
+To open a terminal on the current folder in VSCode, open the file explorer - `(cmd or ctrl) + shift + e` - right click on current file and click on `Open in Integrated Terminal`.
 
 Only the first time when you create a new repository, you need to open a terminal on the `index.html` folder and run:
 
