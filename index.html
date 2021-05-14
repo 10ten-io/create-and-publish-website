@@ -3,32 +3,81 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="tailwind.css" rel="stylesheet">
-  <title>10ten</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <title>10ten - Frontend 01</title>
 </head>
 <body>
-  <div class="container mx-auto px-4">
-    <h1 class="text-4xl font-bold">This is an HTML page</h1>
-    <p class="text-blue-500 mb-8"><a href="markdown.html">Go to Markdown</a></p>
+  <main role="main">
+    <header class="container">
+      <div class="px-4 py-5 text-center">
+        <div class="py-5">
+          <h1 class="display-5 fw-bold">Hello, I'm Alex</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="fs-5 mb-4">and I will teach you how to quickly create your first website.</p>
+          </div>
+        </div>
+      </div>
+    </header>
 
-    <iframe class="mx-auto mb-8" width="560" height="315" src="https://www.youtube.com/embed/USjZcfj8yxE" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-
-    <h3 class="text-xl font-bold">Do your own research</h3>
-    <ul class="list-disc mb-8">
-        <li><a class="text-blue-500" href="https://guides.github.com/introduction/git-handbook/">Git Handbook</a></li>
-        <li><a class="text-blue-500" href="https://git-scm.com/book/en/v2">Git Book</a></li>
-        <li><a class="text-blue-500" href="https://www.git-tower.com/learn/">Git Tower</a></li>
-    </ul>
-
-    <h3 class="text-xl font-bold">Quiz</h3>
-    <ol class="list-decimal mb-8">
-        <li>What is Git?</li>
-        <li>Use Google Forms</li>
-    </ol>
-
-    <h3 class="text-xl font-bold">Project</h3>
-    <p>Create your own git repository to story notes about our lectures</p>
+    <article class="container">
+      <section class="col-8 offset-2">
+        <p>Before we start, make sure you have a <a href="https://github.com">GitHub</a> account and <a href="https://code.visualstudio.com">Visual Studio Code</a> installed. On Windows, you also need to install Git. Most of other Operational Systems have it by default.</p>
+        <p><strong>In minutes, you will create and publish your first page on the internet.</strong></p>
+        <h2>Create</h2>
+        <p>First, let's understand what a website is in it's most basic form: an HTML file with text inside.</p>
+        <p>Open VSCode and click on <img src="open.png" alt="Open..." width="80"/>. Use the <code>Open</code> dialog to create a folder <code>Dev</code> on your user folder, and inside it create another folder named <code>website</code>. Open it. Use the VSCode file explorer to create a file named <code>index.html</code> inside <code>Dev/website/</code>. Write <code>Hello, I'm Alex</code> on it and save. Of course, you should change by your name.</p>
+        <p>Now, open it with your browser. YAY! That's your first website.</p>
+        <center><iframe src="https://giphy.com/embed/75ZaxapnyMp2w" width="240" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>source: <a href="https://giphy.com/gifs/75ZaxapnyMp2w">GIPHY</a></p></center>
+        <p>Essentially, a website is an HTML file, that can be opened by browsers. Just like images can be opened by image editors, PDF files can be opened by PDF viewers, mp3 files can be opened by music players, and the list goes on. HTML files can be opened by browsers.</p>
+        <p>Let's take a minute to review our actions:</p>
+        <ol>
+        <li><strong>Create and open a folder</strong></li>
+        <li><strong>Create and open a file</strong></li>
+        </ol>
+        <p>It's important that you get used to this and memorize VSCode shortcuts to do it easily. As a software developer, managing files will take a huge part of your time.</p>
+        <p>On VSCode, to open something hold <code>control</code> on Linux/Windows, or <code>command</code> on OSX and press the key <code>o</code>. To toggle the file explorer, press <code>(ctrl or cmd) + shift + e</code> and release, to save current file use <code>(ctrl or cmd) + s</code>, to toggle the terminal press <code>ctrl + `</code> keys. Memorize the shortcuts for the menu options you click the most!</p>
+        <h2>Publish</h2>
+        <p>Problem: only you can see this file/website, because it is in your computer. To show this to your friends we will need to put it in a public machine, for example a GitHub server.</p>
+        <p>GitHub is a development platform that can store our files and serve them to the browser via <code>username.github.io</code> address. And much more that we will explore later.</p>
+        <p>To start, navigate to <a href="https://github.com">GitHub.com</a>, login and create a new repository to store the website files. Give it this name: <code>username.github.io</code>, changing <code>username</code> by your username in GitHub.</p>
+        <p>To send local files to GitHub we need Git, which is a terminal application shipped with OSX computers and most linux distributions. So you probably already have it, but if you don't, checkout the pre-work notes.</p>
+        <p>Git is used everyday by pretty much every developer in the world, so you better start using it. Good news is that we only need 5 commands today. You will write (or copy-paste) on a terminal running inside the same folder as <code>index.html</code>.</p>
+        <p>To open a terminal on the current folder in VSCode, open the file explorer - <code>(cmd or ctrl) + shift + e</code> - right click on current file and click on <code>Open in Integrated Terminal</code>.</p>
+        <p>Only the first time when you create a new repository, you need to open a terminal on the <code>index.html</code> folder and run:</p>
+        <pre><code>git init .
+        </code></pre>
+        <p>It initializes a local Git repository. Now, change <code>username</code> by your own GitHub username and run:</p>
+        <pre><code>git remote add origin git@github.com:username/username.github.io.git
+        </code></pre>
+        <p>It links a GitHub remote repository to your local repository, so that you can exchange files between. It's a common convention to call it <code>origin</code> and we will use this name when we need to push changes.</p>
+        <p>Now, every time you need to send changes to your website, you can:</p>
+        <table>
+            <tr>
+                <th>Command</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>git add index.html</td>
+                <td>add files/changes to send to the remote repository</td>
+            </tr>
+            <tr>
+                <td>git commit -m "nice description of the changes"</td>
+                <td>group all changes with a nice description</td>
+            </tr>
+            <tr>
+                <td>git push origin main</td>
+                <td>push local commits to the remote <em>origin</em> on <em>main</em> branch</td>
+            </tr>
+        </table>
+        <br>
+        <p>If it asks for a username and password, type your GitHub username and password, and check the pre-work notes to learn how to stay authenticated with GitHub so that you don't have to type credentials every time you push changes.</p>
+        <p>Get used to those 3 commands, we will use them every day, just like every developer in the world!</p>
+        <p>If you followed those steps and didn't get any error, you should be able to see the index page on <code>username.github.io</code> after some seconds.</p>
+        <center><strong>Take this moment to admire your accomplishment.</strong></center>
+        <br>
+        <p>Next we will learn how to add more elements and styles to your web page...</p>
+      </section>
+    </article>
+  </main>
 </body>
 </html>
