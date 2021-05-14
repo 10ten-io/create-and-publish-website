@@ -1,14 +1,16 @@
 Hello, I'm Alex and I will teach you how to quickly create your first website.
 
-Before we start, make sure you have a [GitHub](github.com) account and [Visual Studio Code](https://code.visualstudio.com) installed.
+Before we start, make sure you have a [GitHub](github.com) account and [Visual Studio Code](https://code.visualstudio.com) installed. On Windows, you also need to install Git. Most of other Operational Systems have it by default.
 
 At the end, you will have your own personal website.
 
-First, let's understand what a website is in it's most basic form: an HTML file.
+First, let's understand what a website is in it's most basic form: an HTML file with text inside.
 
-Open your file explorer and create a file called `index.html`. Open it with VSCode, write `Hello, I'm Alex` and save. Of course you should change by your name.
+Open your file explorer and create a file called `index.html`. Open it with VSCode, write `Hello, I'm Alex` and save. Of course, you should change by your name.
 
 Now, open it with your browser. YAY! That's your first website.
+
+<iframe src="https://giphy.com/embed/75ZaxapnyMp2w" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>source: <a href="https://giphy.com/gifs/75ZaxapnyMp2w">GIPHY</a></p>
 
 Essentially, a website is an HTML file, that can be opened by browsers. Just like images can be opened by image editors, PDF files can be opened by PDF viewers, mp3 files can be opened by music players, and the list goes on. HTML files can be opened by browsers.
 
@@ -37,17 +39,31 @@ git remote add origin git@github.com:username/username.github.io.git
 ```
 It links a GitHub remote repository to your local repository, so that you can exchange files between. It's a common convention to call it `origin` and we will use this name when we need to push changes.
 
-Now, everytime you want to send changes to your website, you need to:
-| command | description |
-|---|---
-| `git add index.html` | add files/changes to send to the remote repository |
-| `git commit -m "nice description of what you did"` | group all changes with a nice description |
-| `git push origin main` | push local commits to the remote `origin` on `main` branch |
+Now, every time you need to send changes to your website, you can:
+<table>
+    <tr>
+        <th>command</th>
+        <th>description</th>
+    </tr>
+    <tr>
+        <td>git add index.html</td>
+        <td>add files/changes to send to the remote repository</td>
+    </tr>
+    <tr>
+        <td>git commit -m "nice description of the changes"</td>
+        <td>group all changes with a nice description</td>
+    </tr>
+    <tr>
+        <td>git push origin main</td>
+        <td>push local commits to the remote <em>origin</em> on <em>main</em> branch</td>
+    </tr>
+</table>
 
+<br>
 If it asks for a username and password, type your GitHub username and password, and check the pre-work notes to learn how to stay authenticated with GitHub so that you don't have to type credentials every time you push changes.
 
 Get used to those 3 commands, we will use them every day, just like every developer in the world!
 
 If you followed those steps and didn't get any error, you should be able to see the index page on `username.github.io` after some seconds.
 
-Take this moment to admire your accomplishment :)
+<center><strong>Take this moment to admire your accomplishment.</strong></center>
