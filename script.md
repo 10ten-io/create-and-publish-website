@@ -51,6 +51,7 @@ git remote add origin git@github.com:username/username.github.io.git
 It links a GitHub remote repository to your local repository, so that you can exchange files between. It's a common convention to call it `origin` and we will use this name when we need to push changes.
 
 Now, every time you need to send changes to your website, you can:
+<center>
 <table>
     <tr>
         <th>Command</th>
@@ -69,6 +70,7 @@ Now, every time you need to send changes to your website, you can:
         <td>push local commits to the remote <em>origin</em> on <em>main</em> branch</td>
     </tr>
 </table>
+</center>
 
 <br>
 
