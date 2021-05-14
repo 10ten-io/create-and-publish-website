@@ -20,7 +20,9 @@ Let's take a minute to review our actions:
 1. **Create and open a folder**
 2. **Create and open a file**
 
-It's important that you get used to this and memorize VSCode shortcuts to do it easily. For example, to open something hold `control` on Linux/Windows, or `command` on OSX and press the key `o`. To toggle the file explorer, press `(ctrl or cmd) + shift + e` and release, to save `(ctrl or cmd) + s`...memorize the ones you use the most!
+It's important that you get used to this and memorize VSCode shortcuts to do it easily. As a software developer, managing files will take a huge part of your time.
+
+On VSCode, to open something hold `control` on Linux/Windows, or `command` on OSX and press the key `o`. To toggle the file explorer, press `(ctrl or cmd) + shift + e` and release, to save current file use `(ctrl or cmd) + s`, to toggle the terminal press `` ctrl + ` `` keys. Memorize the shortcuts for the menu options you click the most!
 
 ## Publish
 Problem: only you can see this file/website, because it is in your computer. To show this to your friends we will need to put it in a public machine, for example a GitHub server.
