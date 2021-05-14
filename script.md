@@ -10,7 +10,7 @@ Open your file explorer and create a file called `index.html`. Open it with VSCo
 
 Now, open it with your browser. YAY! That's your first website.
 
-<iframe src="https://giphy.com/embed/75ZaxapnyMp2w" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>source: <a href="https://giphy.com/gifs/75ZaxapnyMp2w">GIPHY</a></p>
+<center><iframe src="https://giphy.com/embed/75ZaxapnyMp2w" width="240" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>source: <a href="https://giphy.com/gifs/75ZaxapnyMp2w">GIPHY</a></p></center>
 
 Essentially, a website is an HTML file, that can be opened by browsers. Just like images can be opened by image editors, PDF files can be opened by PDF viewers, mp3 files can be opened by music players, and the list goes on. HTML files can be opened by browsers.
 
