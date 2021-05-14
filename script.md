@@ -1,6 +1,6 @@
 Hello, I'm Alex and I will teach you how to quickly create your first website.
 
-Before we start, make sure you have a [GitHub](github.com) account and [Visual Studio Code](https://code.visualstudio.com) installed. On Windows, you also need to install Git. Most of other Operational Systems have it by default.
+Before we start, make sure you have a [GitHub](https://github.com) account and [Visual Studio Code](https://code.visualstudio.com) installed. On Windows, you also need to install Git. Most of other Operational Systems have it by default.
 
 **In minutes, you will create and publish your first page on the internet.**
 
