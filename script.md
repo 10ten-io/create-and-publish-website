@@ -15,10 +15,15 @@ Now, open it with your browser. YAY! That's your first website.
 Essentially, a website is an HTML file, that can be opened by browsers. Just like images can be opened by image editors, PDF files can be opened by PDF viewers, mp3 files can be opened by music players, and the list goes on. HTML files can be opened by browsers.
 
 Let's take a minute to review our actions:
-1. Create and open a folder
-2. Create and open a file
 
-It's important that you get used to this, and know shortcuts on VSCode to do it easily. For example, to open something hold `ctrl` on Linux/Windows, or `command` on OSX and press the key `o`. To toggle the file explorer, press `(cmd or ctrl) + shift + e` and release.
+<strong>
+    <ol>
+        <li>Create and open a folder</li>
+        <li>Create and open a file  </li>
+    </ol>
+</strong>
+
+It's important that you get used to this and memorize VSCode shortcuts to do it easily. For example, to open something hold `control` on Linux/Windows, or `command` on OSX and press the key `o`. To toggle the file explorer, press `(ctrl or cmd) + shift + e` and release.
 
 Now only you can see this file/website, because it is in your computer. To show this to your friends we will need to put it in a public machine, for example a GitHub server.
 
@@ -66,6 +71,7 @@ Now, every time you need to send changes to your website, you can:
 </table>
 
 <br>
+
 If it asks for a username and password, type your GitHub username and password, and check the pre-work notes to learn how to stay authenticated with GitHub so that you don't have to type credentials every time you push changes.
 
 Get used to those 3 commands, we will use them every day, just like every developer in the world!
