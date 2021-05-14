@@ -2,8 +2,9 @@ Hello, I'm Alex and I will teach you how to quickly create your first website.
 
 Before we start, make sure you have a [GitHub](github.com) account and [Visual Studio Code](https://code.visualstudio.com) installed. On Windows, you also need to install Git. Most of other Operational Systems have it by default.
 
-**In minutes, you will publish your first page on the internet.**
+**In minutes, you will create and publish your first page on the internet.**
 
+## Create
 First, let's understand what a website is in it's most basic form: an HTML file with text inside.
 
 Open VSCode and click on <img src="open.png" alt="Open..." width="80"/>. Use the `Open` dialog to create a folder `Dev` on your user folder, and inside it create another folder named `website`. Open it. Use the VSCode file explorer to create a file named `index.html` inside `Dev/website/`. Write `Hello, I'm Alex` on it and save. Of course, you should change by your name.
@@ -19,9 +20,10 @@ Let's take a minute to review our actions:
 1. **Create and open a folder**
 2. **Create and open a file**
 
-It's important that you get used to this and memorize VSCode shortcuts to do it easily. For example, to open something hold `control` on Linux/Windows, or `command` on OSX and press the key `o`. To toggle the file explorer, press `(ctrl or cmd) + shift + e` and release.
+It's important that you get used to this and memorize VSCode shortcuts to do it easily. For example, to open something hold `control` on Linux/Windows, or `command` on OSX and press the key `o`. To toggle the file explorer, press `(ctrl or cmd) + shift + e` and release, to save `(ctrl or cmd) + s`...memorize the ones you use the most!
 
-Now only you can see this file/website, because it is in your computer. To show this to your friends we will need to put it in a public machine, for example a GitHub server.
+## Publish
+Problem: only you can see this file/website, because it is in your computer. To show this to your friends we will need to put it in a public machine, for example a GitHub server.
 
 GitHub is a development platform that can store our files and serve them to the browser via `username.github.io` address. And much more that we will explore later.
 
@@ -75,3 +77,6 @@ Get used to those 3 commands, we will use them every day, just like every develo
 If you followed those steps and didn't get any error, you should be able to see the index page on `username.github.io` after some seconds.
 
 <center><strong>Take this moment to admire your accomplishment.</strong></center>
+
+<br>
+Next we will learn how to add more elements and styles to your web page...
