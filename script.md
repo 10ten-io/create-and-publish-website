@@ -29,7 +29,7 @@ Problem: only you can see this file/website, because it is in your computer. To 
 
 GitHub is a development platform that can store our files and serve them to the browser via `username.github.io` address. And much more that we will explore later.
 
-To start, navigate to github.com, login and create a new repository to store the website files. Give it this name: `username.github.io`, changing `username` by your username in GitHub.
+To start, navigate to [GitHub.com](https://github.com), login and create a new repository to store the website files. Give it this name: `username.github.io`, changing `username` by your username in GitHub.
 
 To send local files to GitHub we need Git, which is a terminal application shipped with OSX computers and most linux distributions. So you probably already have it, but if you don't, checkout the pre-work notes.
 
@@ -53,8 +53,8 @@ It links a GitHub remote repository to your local repository, so that you can ex
 Now, every time you need to send changes to your website, you can:
 <table>
     <tr>
-        <th>command</th>
-        <th>description</th>
+        <th>Command</th>
+        <th>Description</th>
     </tr>
     <tr>
         <td>git add index.html</td>
