@@ -77,7 +77,7 @@ If it asks for a username and password, type your GitHub username and password, 
 Get used to those 3 commands, we will use them every day, just like every developer in the world!
 
 If you followed those steps and didn't get any error, you should be able to see the index page on `username.github.io` after some seconds.
-<br><br>
-<center><strong>Take this moment to admire your accomplishment.</strong></center>
-<br>
+
+**Take this moment to admire your accomplishment.**
+
 Next we will learn how to add more elements and styles to your web page...
